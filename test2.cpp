@@ -30,10 +30,15 @@ int main()
     d2.a2=255;
     d.a3=255;
     d2.a3=255;
-//    printf("size of %d %d %d \n", sizeof(d.a1), sizeof(d.a2), sizeof(d.a3));
-//    printf("size of %d %d %d \n", sizeof(d2.a1), sizeof(d2.a2), sizeof(d2.a3));
     printf("a1:%d a2:%d a3:%d \n", d.a1, d.a2, d.a3);
     printf("a1:%d a2:%d a3:%d \n", d2.a1, d2.a2, d2.a3);
 
+
+   if (true) {
+	   printf("true\n");
+   } else {
+	   printf("false\n");
+   }
     return 0;
 }
+
